@@ -7,7 +7,7 @@ The modifications consist of taking multiple hosts as targets and displaying onl
 Just run it against a list of hosts with the SSH port open, it will detect the vulnerable ones and try to enumerate accounts if usernames were provided.
 
 Example:
-$ python3 sshUsernameEnumExploit.py --hostnameList ssh_targets.txt --userList users.txt --outputToDirectory
+```$ python3 sshUsernameEnumExploit.py --hostnameList ssh_targets.txt --userList users.txt --outputToDirectory```
 
 # CVE-2018-15473-Exploit
 This is patched exploit of https://github.com/Rhynorater/CVE-2018-15473-Exploit for usining with new python-paramiko
