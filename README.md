@@ -1,3 +1,10 @@
+# Archived
+
+Just use 
+msf> use ssh_enumusers
+
+Ref: https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/auxiliary/scanner/ssh/ssh_enumusers.md
+
 # Updated - 2022
 
 As old instances of OpenSSH on internal assessments are still a thing, I decided to made this script more useful as it can be an easy win in trying to enumerate local (and potentially domain) usernames.
