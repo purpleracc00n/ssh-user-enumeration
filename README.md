@@ -1,7 +1,8 @@
 # Archived
 
 Just use 
-msf> use ssh_enumusers
+
+```msf> use ssh_enumusers```
 
 Ref: https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/auxiliary/scanner/ssh/ssh_enumusers.md
 
